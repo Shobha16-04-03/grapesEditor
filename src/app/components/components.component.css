@@ -1,0 +1,57 @@
+
+ ::ng-deep.gjs-two-color{
+  border: 2px solid #484242;
+} 
+
+::ng-deep.editor-canvas{
+  height: 550px;
+  position: relative;
+}
+.editor-right-icon{
+  width: 11%;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#blocks{
+  width: 200px;
+  height: 500px;
+  overflow-y: auto;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+.layers-container{
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  
+}
+::ng-deep .gjs-cv-canvas{
+  width: calc(100% - 200px);
+}
+
+::ng-deep.gjs-layer-item{
+  width: 200px;
+}
+
+::ng-deep.panel__basic-actions{
+  margin-top: -7px;
+  left: 0px;
+}
+.styles-container{
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 200px;
+  height: calc(100vh - 190px);
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-bottom: 30px;
+}
+.styles-container::-webkit-scrollbar {
+  display: none;
+}
